@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List-page</title>
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/listStyle.css" />
+  </head>
+  <body>
+    <div class="navhead">
+      <div class="logo">
+        <img src="/images/logo-colored.jpg" height="50px" />
+      </div>
+
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="Search " class="search-input" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="topright">
+        <i class="fa-solid fa-address-card"></i>
+        Profile
+        <i class="fa-solid fa-message"></i>
+        Message
+        <i class="fa-solid fa-heart"></i>
+        Orders
+        <i class="fa-solid fa-cart-arrow-down"></i>
+        My Cart
+      </div>
+    </div>
+<hr>
+<!-- <div class="mainpnel"> -->
+    <div class="panel">
+        <div class="panel-all border">
+          <i class="fa-solid fa-bars"></i>
+          <b>
+          All Category 
+        </div>
+        <div class="panel-op">
+          <p>Hot Offers</p>
+          <p>Gift Boxes</p>
+          <p>Projects</p>
+          <p>Menu Item</p>
+          <p>Help</p>
+          </b>
+        </div>
+         <div class="lang">
+          <select class="search-lang">
+            <option>English</option>
+          </select>
+        </div> 
+       <div class="navcounr">
+          <select class="coun">
+            <option>Ship to
+              <i class="fa-solid fa-flag"></i>
+            </option>
+          </select>
+        </div>
+    </div>
+    <!-- Breadcrumb / result row -->
+    <div class="breadcrumb-row">
+      <div class="breadcrumbs">Home &gt; Clothing &gt; Main Wear &gt; Summer clothing</div>
+      <div class="result-count">Showing <strong>1-6</strong> of <strong>12,911</strong> items</div>
+    </div>
+
+    <!-- Main content: sidebar + products -->
+    <main class="content">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-block">
+          <h4 class="sb-title">Category</h4>
+          <ul class="sb-list small">
+            <li>Mobile accessory</li>
+            <li>Electronics</li>
+            <li>Smartphones</li>
+            <li>Modern tech</li>
+          </ul>
+          <a class="view-link" href="#">See all</a>
+        </div>
+<br>
+<br>
+        <div class="sidebar-block">
+          <h4 class="sb-title">Brands</h4>
+          <label><input type="checkbox"> Samsung</label>
+          <label><input type="checkbox"> Apple</label>
+          <label><input type="checkbox"> Huawei</label>
+          <label><input type="checkbox"> Poco</label>
+          <a class="view-link" href="#">See all</a>
+        </div>
+<br><br>
+        <div class="sidebar-block">
+          <h4 class="sb-title">Features</h4>
+          <label><input type="checkbox"> Metallic</label>
+          <label><input type="checkbox"> Plastic cover</label>
+          <label><input type="checkbox"> Super power</label>
+          <a class="view-link" href="#">See all</a>
+        </div>
+<br><br>
+        <div class="sidebar-block">
+          <h4 class="sb-title">Price range</h4>
+          <div class="price-range">
+            <input placeholder="Min" class="price-inp">
+            <input placeholder="Max" class="price-inp">
+          </div>
+          <button class="btn-apply">Apply</button>
+        </div>
+<br><br>
+        <div class="sidebar-block">
+          <h4 class="sb-title">Condition</h4>
+          <label><input type="radio" name="cond"> Any</label>
+          <label><input type="radio" name="cond"> Refurbished</label>
+          <label><input type="radio" name="cond"> Old items</label>
+          <a class="view-link" href="#">See all</a>
+        </div>
+<br><br>
+        <div class="sidebar-footer">
+          <div class="rating-legend">
+            <div>Ratings</div>
+            <div class="stars">
+              <span>★★★★★</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Products column -->
+      <section class="products-col">
+        <div class="products-toolbar">
+          <div class="left">
+            <div class="category-pill">Mobile accessory</div>
+            <div class="verified-toggle"><input type="checkbox"> Verified only</div>
+          </div>
+          <div class="right">
+            <select class="select-small">
+              <option>Featured</option>
+            </select>
+            <div class="view-mode">
+              <button class="icon-btn small">▣</button>
+              <button class="icon-btn small">▦</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-list">
+          <!-- Product card (1) -->
+          <article class="product-card">
+            <div class="card-left">
+              <img src="/images/rediphone.jpg" alt="thumb" class="thumb">
+            </div>
+            <div class="card-middle">
+              <h3 class="product-title">Canon Camera EOS 2000, Black 10x zoom</h3>
+              <div class="meta-row">
+                <div class="price">
+                  <span class="current">$998.00</span>
+                  <span class="old">$1,120.00</span>
+                </div>
+                <div class="tag-free">Free Shipping</div>
+              </div>
+              <div class="meta-desc">4.9 • 154 orders • Free Shipping</div>
+              <a class="view-link" href="#">View details</a>
+            </div>
+            <div class="card-right">
+              <button class="fav">♡</button>
+            </div>
+          </article>
+
+          <!-- Product card (2) -->
+          <article class="product-card">
+            <div class="card-left">
+              <img src="/images/andriod.jpg" alt="thumb" class="thumb">
+            </div>
+            <div class="card-middle">
+              <h3 class="product-title">GoPro HERO6 4K Action Camera - Black</h3>
+              <div class="meta-row">
+                <div class="price">
+                  <span class="current">$998.00</span>
+                  <span class="old">$1,120.00</span>
+                </div>
+                <div class="tag-free">Free Shipping</div>
+              </div>
+              <div class="meta-desc">4.7 • 95 orders • Free Shipping</div>
+              <a class="view-link" href="#">View details</a>
+            </div>
+            <div class="card-right">
+              <button class="fav">♡</button>
+            </div>
+          </article>
+
+          <!-- Product card (3) -->
+          <article class="product-card">
+            <div class="card-left">
+              <img src="/images/tablet.jpg" alt="thumb" class="thumb">
+            </div>
+            <div class="card-middle">
+              <h3 class="product-title">Wireless Headphones — Over Ear</h3>
+              <div class="meta-row">
+                <div class="price">
+                  <span class="current">$498.00</span>
+                  <span class="old">$520.00</span>
+                </div>
+                <div class="tag-free">Free Shipping</div>
+              </div>
+              <div class="meta-desc">4.6 • 74 orders • Limited stock</div>
+              <a class="view-link" href="#">View details</a>
+            </div>
+            <div class="card-right">
+              <button class="fav">♡</button>
+            </div>
+          </article>
+          <!-- Product card (4) -->
+          <article class="product-card">
+            <div class="card-left">
+              <img src="/images/rediphone.jpg" alt="thumb" class="thumb">
+            </div>
+            <div class="card-middle">
+              <h3 class="product-title">Wireless Headphones — Over Ear</h3>
+              <div class="meta-row">
+                <div class="price">
+                  <span class="current">$498.00</span>
+                  <span class="old">$520.00</span>
+                </div>
+                <div class="tag-free">Free Shipping</div>
+              </div>
+              <div class="meta-desc">4.6 • 74 orders • Limited stock</div>
+              <a class="view-link" href="#">View details</a>
+            </div>
+            <div class="card-right">
+              <button class="fav">♡</button>
+            </div>
+          </article>
+          <!-- Product card (5) -->
+          <article class="product-card">
+            <div class="card-left">
+              <img src="/images/andriod.jpg" alt="thumb" class="thumb">
+            </div>
+            <div class="card-middle">
+              <h3 class="product-title">Wireless Headphones — Over Ear</h3>
+              <div class="meta-row">
+                <div class="price">
+                  <span class="current">$498.00</span>
+                  <span class="old">$520.00</span>
+                </div>
+                <div class="tag-free">Free Shipping</div>
+              </div>
+              <div class="meta-desc">4.6 • 74 orders • Limited stock</div>
+              <a class="view-link" href="#">View details</a>
+            </div>
+            <div class="card-right">
+              <button class="fav">♡</button>
+            </div>
+          </article>
+          <!-- Product card (6) -->
+          <article class="product-card">
+            <div class="card-left">
+              <img src="/images/tablet.jpg" alt="thumb" class="thumb">
+            </div>
+            <div class="card-middle">
+              <h3 class="product-title">Wireless Headphones — Over Ear</h3>
+              <div class="meta-row">
+                <div class="price">
+                  <span class="current">$498.00</span>
+                  <span class="old">$520.00</span>
+                </div>
+                <div class="tag-free">Free Shipping</div>
+              </div>
+              <div class="meta-desc">4.6 • 74 orders • Limited stock</div>
+              <a class="view-link" href="#">View details</a>
+            </div>
+            <div class="card-right">
+              <button class="fav">♡</button>
+            </div>
+          </article>
+
+          <!-- more cards can be added the same way -->
+        </div>
+
+        <!-- Newsletter / pagination -->
+        <div class="products-footer">
+          <div class="newsletter">
+            <input placeholder="Enter your email to get offers">
+            <button class="btn-sub">Subscribe</button>
+          </div>
+
+          <div class="pagination">
+            <button class="pg">«</button>
+            <button class="pg active">1</button>
+            <button class="pg">2</button>
+            <button class="pg">3</button>
+            <button class="pg">»</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+     <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-top">
+            <div class="col">
+                <h3>Brand</h3>
+                <p>Best information about the company goes here but now lorem ipsum is</p>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <p>About Us</p>
+                <p>Find store</p>
+                <p>Categories</p>
+                <p>Blogs</p>
+            </div>
+
+            <div class="col">
+                <h4>Partnership</h4>
+                <p>Help Center</p>
+                <p>Money Refund</p>
+                <p>Shipping</p>
+                <p>Contact us</p>
+            </div>
+
+            <div class="col">
+                <h4>For users</h4>
+                <p>Login</p>
+                <p>Register</p>
+                <p>Settings</p>
+                <p>My Orders</p>
+            </div>
+
+            <div class="col-bt">
+                <h4>Get app</h4>
+                <img src="/images/iphonebutton.png" alt="" class="downbut1">
+                <img src="/images/android app store.png" alt="" class="downbut2">
+            </div>
+        </div>
+
+        <p class="bottom-text">© 2023 Ecommerce.</p>
+    </footer>
+
+  </div>
+  <script src="/javascript/liststyle.js"></script>
+  </head>
+  <body>
+
+
